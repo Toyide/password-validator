@@ -8,7 +8,7 @@ import org.junit.Test;
 public class ValidatorTest {
     @Test
     public void validate() throws Exception {
-      String a = "ssssssssss";
+      String a = "ss1sss";
       Validator vd= new Validator();
       System.out.print(vd.validate(a));
 
