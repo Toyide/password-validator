@@ -8,7 +8,7 @@ public class Validator {
 
     public static String validate(String password)
     {
-        String a = "";
+        String a = null;
         boolean isAtLeast8   = password.length() >= 8;
         boolean justpassword = !password.equals("password");
 

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    tools:context="com.example.yide.password_validator.MainActivity">
+
+
+    <TextView
+
+        android:id="@+id/textfield"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="20dp"
+
+        android:layout_marginBottom="8dp"
+
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        android:text="Try you password!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butt"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <Button
+
+        android:id="@+id/butt"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="8dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="56dp"
+        android:text="Validate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infield" />
+
+
+    <EditText
+
+        android:id="@+id/infield"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="46dp"
+
+        android:layout_marginEnd="8dp"
+
+        android:layout_marginStart="8dp"
+
+        android:layout_marginTop="128dp"
+
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Type Password Here"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</android.support.constraint.ConstraintLayout>
