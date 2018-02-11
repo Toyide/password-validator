@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/passwordvalidator.iml" filepath="$PROJECT_DIR$/passwordvalidator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/password-validator.iml" filepath="$PROJECT_DIR$/password-validator.iml" />
+      <module fileurl="file://C:\Users\new\Desktop\A2\password-validator\passwordvalidator.iml" filepath="C:\Users\new\Desktop\A2\password-validator\passwordvalidator.iml" />
     </modules>
   </component>
 </project>

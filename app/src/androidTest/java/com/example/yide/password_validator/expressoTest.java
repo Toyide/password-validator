@@ -75,7 +75,7 @@ public class expressoTest {
 
                 allOf(withId(R.id.textfield), isDisplayed()));
 
-        textView.check(matches(withText("Password is Strong!")));
+        textView.check(matches(withText("Your password is Strong!")));
 
 
 

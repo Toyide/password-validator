@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view){
 
                 String Password = input.getText().toString();
-                if (validator.validate(Password).isEmpty()){
+                if (validator.validate(Password)==""){
                     output.setText("Your password is Strong!");
                 }
                 else{
